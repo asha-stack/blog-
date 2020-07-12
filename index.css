@@ -1,0 +1,277 @@
+html,
+body {
+    margin-top: 11px;
+    font-family: 'Patua One', cursive;
+}
+
+.logo {
+    font-size: 3rem;
+    text-decoration: line-through rgb(136, 72, 62);
+}
+
+h6 {
+    font-size: 20px;
+    color: rgba(63, 63, 62, 0.664);
+}
+
+.partone {
+    margin: 50px;
+    padding-left: 17%;
+    font-size: 100px;
+    text-shadow: rgb(39, 38, 38);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 70px;
+}
+.btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: rgba(126, 76, 69, 0.938);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+.btn:hover{
+    opacity: .7;
+}
+.link{
+    color: rgb(37, 36, 36);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.title {
+    padding-left: 19%;
+    margin-top: 1%;
+    justify-content: center;
+    display: inline-block;
+}
+
+p {
+    font-size: 21px;
+    color: rgba(63, 63, 62, 0.664);
+}
+
+img {
+    align-content: center;
+}
+
+.summary {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+button {
+    padding-left: 35%;
+    font-weight: 700;
+}
+
+
+/* articles */
+
+.sum-book2 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+a {
+    color: rgba(79, 206, 241, 0.575);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sum-book3 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book4 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book5 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book6 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book7 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book8 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book9 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book10 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book11 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book12 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+.sum-book13 {
+    margin-top: 50px;
+    font-size: 60px;
+    justify-content: space-evenly;
+    padding-left: 19%;
+}
+
+
+/* Footer */
+
+footer {
+    background: #f1f1f1;
+    padding: 90px 0;
+}
+
+.footer-container {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    padding: 0 30px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo {
+    width: 180px;
+}
+
+.social-media a {
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover {
+    color: rgb(136, 72, 62);
+}
+
+.right-col h1 {
+    font-size: 26;
+}
+
+.border {
+    width: 100px;
+    height: 7px;
+    background-color: rgb(136, 72, 62);
+}
+
+.newletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.txtb {
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #dddddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+.button {
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: rgba(126, 76, 69, 0.938);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+
+.button:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-container {
+        max-width: 600px;
+    }
+    .right-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .left-col {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .btn {
+        margin: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
